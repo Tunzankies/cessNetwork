@@ -49,3 +49,57 @@ Lưu token đăng nhập để chạy task (tự động cập nhật)
 
 ## Hỗ trợ
 Liên hệ hỗ trợ: @tunankies 
+
+---
+
+# CESS Network Tool
+
+Automation tool for CESS Network with UserAgent spoofing capability.
+
+## Airdrop Link
+https://cess.network/deshareairdrop/?code=9222341
+
+## Configuration
+File `config.json`:
+```json
+{
+    "numberThread": 20,    // Number of threads
+    "waitTime": 10000,     // Delay time after each run (ms)
+    "checkProxy": true,    // Check if proxy is active
+    "refCode": "9222341",  // CESS Network referral code
+    "passwordMail": "Tunzankies@" // Password for creating buff ref account
+}
+```
+
+## Data File Structure
+
+### 1. account.txt
+Stores account information after registration in the format: `mail|pass|ref_code`
+```
+Example: r4hkaj@chefalicious.com|Tunzankies@|8106070
+```
+
+### 2. OKX.txt
+Stores OKX wallet information in the format: `address|privateKey`
+```
+Example: 0xc7....6ac8|0xa68....75fca
+```
+
+### 3. proxy.txt
+Stores proxy information in the format: `ip:port:user:pass`
+
+### 4. token.txt
+Stores login token for running tasks (automatically updated)
+
+## Main Features
+
+1. **Buff Reff** - Automatically creates accounts and uses referral codes
+2. **Complete Tasks** - Automatically completes tasks in CESS Network
+3. **Connect OKX** - Connects OKX wallet
+4. **Refresh Token** - Automatically retrieves a new token when expired (token valid for 3 hours)
+5. **Connect X** - Connects X account (under development)
+   - Contact to purchase X account: @tunankies (550đ/X)
+6. **Exit**
+
+## Support
+Contact support: @tunankies 
