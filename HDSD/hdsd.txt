@@ -1,0 +1,39 @@
+HƯỚNG DẪN SỬ DỤNG TOOL - ĐÃ FAKE USERAGENT ( THÔNG SỐ THIẾT BỊ )
+Link kèo Cess Network https://cess.network/deshareairdrop/?code=9222341
+
+- File config.json -
+{
+    "numberThread": 20, // số luồng chạy 
+    "waitTime": 10000 , // delay sau mỗi lần chạy
+    "checkProxy": true, // check proxy xem còn sống hay chết
+    "refCode": "9222341", // mã ref cess network
+    "passwordMail":"Tunzankies@" // mật khẩu để tạo tài khoản buff ref 
+}
+
+CÁC FILE LƯU DATA
+1. account.txt 
+- Đăng kí tài khoản xong sẽ lưu thông tin tài khoản dưới dạng: mail|pass|ref_code 
+VD: r4hkaj@chefalicious.com|Tunzankies@|8106070
+
+2. OKX.txt 
+- Bỏ địa chỉ ví và private key vào file theo định dạng: address|privateKey 
+VD: 0xc7....6ac8|0xa68....75fca
+
+3. proxy.txt
+- Bỏ proxy định dạng: ip:port:user:pass
+
+4. token.txt 
+- Là nơi lưu token khi đăng kí tài khoản để chạy task ( không cần quan tâm )
+
+
+* CÁC CHỨC NĂNG TRONG TOOL *
+[1] Buff Reff 
+[2] Làm nhiệm vụ
+[3] Kết nối OKX - Connect Ví
+[4] Lấy lại token - lấy lại token khi hết hạn ( hạn token 3h )
+[5] Connect X ( chế độ đang phát triền ) - Mua X liên hệ @tunankies: 550đ/X
+[6] Thoát
+
+
+CHÚC CÁC BẠN DÙNG TOOL VUI VẺ 
+LIÊN HỆ HỖ TRỢ: @tunankies
